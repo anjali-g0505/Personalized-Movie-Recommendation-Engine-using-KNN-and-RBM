@@ -52,8 +52,8 @@ pip install surprise numpy tensorflow
 Prepare Data: Ensure the ml-latest-small dataset is in the correct directory (e.g., ../ml-latest-small/ relative to your script, as specified in MovieLens.py). Also, ensure LLVisualFeatures13K_Log.csv is accessible for Mise-en-scene features.
 
 Execute the main script:
-python hybridtest.py
-Dependencies
+python hybridtest.py  
+# Dependencies  
 Surprise: A Python scikit for building and analyzing recommender systems.
-NumPy: Fundamental package for numerical computing with Python.
+NumPy, Pandas, Scikit: Fundamental package for numerical computing with Python.
 TensorFlow: Used for the RBM implementation.
